@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: left;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(0, 0, 139, 0.5);
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  float: left;
+  padding: 0 0 20px 20px;
+}
+
+.header-right {
+  float: right;
+  line-height: 65px;
+}
+
+.header-right a {
+  padding: 0 8px;
+  color: white;
+}
+
+
+
+.copy-container {
+  height: 410px;
+  width: 100%;
+  background-image: url(http://drive.google.com/uc?export=view&id=1jclYzJpnwBFodw3xzFqHsinNLb8CGFEb);
+  border: 1px solid transparent; /*ここ大事*/
+}
+
+.copy-container h2 {
+  font-size: 80px;
+  letter-spacing: 20px;
+  padding: 0 0 0 20px;
+}
+
+.copy-container h3 {
+  padding: 0 0 0 20px;
+}
+
+
+
+.contents {
+  height: 600px;
+  width: 100%;
+  text-align: center;
+}
+
+.contents-head {
+  padding-left: 20px;
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.contents-list {
+  width: 100%;
+}
+
+.list {
+  float: left;
+  width: 30%;
+  margin: 0 20px;
+}
+
+.unite {
+  position: relative;
+  text-align: center;
+}
+
+.unite p {
+  position: absolute;
+  top: 55%;
+  left: 47%;
+}
+
+.HTML img {
+  width:35%;
+  height: 25%
+}
+
+.CSS img {
+  width:35%;
+  height: 25%
+}
+
+.PHP img {
+  width:35%;
+  height: 25%
+}
+
+.text-form {
+  padding: 20px 20px;
+}
+
+.contact-form {
+  height: 500px;
+  width: 100%;
+}
+
+.heading {
+  border-bottom: 1px solid #a9a9a9;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.text {
+  padding: 5px 20px;
+}
+
+.contact-form textarea {
+  padding: 20px 40px;
+}
+
+
+
+
+footer {
+  height: 180px;
+  background-color: rgba(27, 161, 170, 0.5);
+}
+
+.footer-container {
+  padding: 20px 20px;
+}
+
+.footer-logo {
+  float: left;
+  padding-top: 40px;
+}
+
+.footer-right {
+  float: right;
+}
